@@ -13,3 +13,6 @@
   
 ![Screenshot (2476)](https://github.com/user-attachments/assets/a3a03f14-445f-4ad8-9438-f269a408c011)
 
+## Simulation Result (Waveform)
+
+![Screenshot (2478)](https://github.com/user-attachments/assets/3f18ca54-f59b-4e94-9d10-143c1dc2bd33)
