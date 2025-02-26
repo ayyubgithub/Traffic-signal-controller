@@ -12,5 +12,3 @@
  > FINITE STATE MACHINE (FSM) DIAGRAM.
   
 ![Screenshot (2476)](https://github.com/user-attachments/assets/a3a03f14-445f-4ad8-9438-f269a408c011)
-
-## Verilog Code 
