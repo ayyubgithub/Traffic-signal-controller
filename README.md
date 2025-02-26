@@ -142,3 +142,61 @@ module Signal_control(hwy, cntry, X, clock, clear);
 
 endmodule
 
+## Test Bench
+
+```Verilog
+
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 02/26/2025 11:11:37 AM
+// Design Name: 
+// Module Name: Signal_control_sim
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module Signal_control_sim;
+     reg clock, clear ; 
+     reg CAR_ON_CNTRY_RD ;
+     wire [1:0] hwy, cntry ;
+     
+ Signal_control uut(.clock(clock), .clear(clear), .X(CAR_ON_CNTRY_RD), .hwy(hwy), .cntry(cntry)) ;
+ 
+   initial begin 
+       clock = 0;
+    forever #5 clock = ~clock;
+  end
+        
+     initial begin
+    clear = 1;
+    repeat (5) @(negedge clock);
+    clear = 0;
+  end
+  
+   initial begin
+    CAR_ON_CNTRY_RD = 0;
+    #20 CAR_ON_CNTRY_RD = 1;
+    #40 CAR_ON_CNTRY_RD = 0;
+    #60 CAR_ON_CNTRY_RD = 1;
+    #80 CAR_ON_CNTRY_RD = 0;
+    #100 CAR_ON_CNTRY_RD = 1;
+    #120 CAR_ON_CNTRY_RD = 0;
+    #200 $finish;
+  end
+
+endmodule
+
+
