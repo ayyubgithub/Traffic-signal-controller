@@ -9,6 +9,6 @@
 - There is a sensor to detect cars waiting on the country road. The sensor sends a signal X as input to the controller. X = 1 if there are cars on the country road; otherwise, X=0.
 - There are delays on transitions from S1 to S2, from S2 to S3, and from S4 to SO. The delays must be controllable.
 
-  FINITE STATE MACHINE (FSM) DIAGRAM.
+ > FINITE STATE MACHINE (FSM) DIAGRAM.
   
 ![Screenshot (2476)](https://github.com/user-attachments/assets/a3a03f14-445f-4ad8-9438-f269a408c011)
