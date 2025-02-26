@@ -16,3 +16,8 @@
 ## Simulation Result (Waveform)
 
 ![Screenshot (2478)](https://github.com/user-attachments/assets/3f18ca54-f59b-4e94-9d10-143c1dc2bd33)
+
+## Schematic of RTL
+
+![Screenshot (2479)](https://github.com/user-attachments/assets/c275ab17-17fb-4f18-a2bf-57a1d87724f8)
+
