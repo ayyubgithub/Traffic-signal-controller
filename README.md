@@ -7,5 +7,6 @@
 - Occasionally, cars from the country road arrive at the traffic signal. The traffic signal for the country road must turn green only long enough to let the cars on the country road go.
 - As soon as there are no cars on the country road, the country road traffic signal turns yellow and then red and the traffic signal on the main highway turns green again.
 - There is a sensor to detect cars waiting on the country road. The sensor sends a signal X as input to the controller. X = 1 if there are cars on the country road; otherwise, X=0.
-- There are delays on transitions from S1 to 52, from S2 to S3, and from S4 to SO. The delays must be controllable.
+- There are delays on transitions from S1 to S2, from S2 to S3, and from S4 to SO. The delays must be controllable.
   
+![Screenshot (2476)](https://github.com/user-attachments/assets/a3a03f14-445f-4ad8-9438-f269a408c011)
